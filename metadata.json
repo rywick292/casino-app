@@ -1,0 +1,6 @@
+{
+  "name": "Ryan's Grand Casino",
+  "description": "Compete in Ryan's Grand Casino Big 2 Poker against customizable AI opponents with strategic bet mechanics and real-time casino gameplay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

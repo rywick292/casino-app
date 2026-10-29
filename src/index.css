@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-casino-serif {
+    font-family: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
+  }
+  .font-art-deco {
+    font-family: 'Limelight', 'Righteous', 'Federo', 'Josefin Sans', sans-serif;
+  }
+  .font-art-deco-geometric {
+    font-family: 'Righteous', 'Limelight', 'Josefin Sans', sans-serif;
+  }
+
+  /* 3D Embossed / Extrusion Shadows for Art Deco Typography */
+  .shadow-3d-text-red {
+    text-shadow:
+      1px 1px 0px #b91c1c,
+      2px 2px 0px #881337,
+      3px 3px 2px rgba(0, 0, 0, 0.4);
+  }
+  
+  .shadow-3d-text-black {
+    text-shadow:
+      1px 1px 0px #64748b,
+      2px 2px 0px #1e293b,
+      3px 3px 2px rgba(0, 0, 0, 0.45);
+  }
+
+  .shadow-3d-symbol-red {
+    filter: drop-shadow(1px 1px 0px #991b1b) drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.35));
+  }
+
+  .shadow-3d-symbol-black {
+    filter: drop-shadow(1px 1px 0px #334155) drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
+  }
+}
